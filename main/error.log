@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/home/jacky/jiuzhou/python/MarketPusher/main/client_side.py", line 40, in <module>
+    main()
+  File "/home/jacky/jiuzhou/python/MarketPusher/main/client_side.py", line 30, in main
+    keyboard.on_press_key("q", stop_program)
+  File "/usr/local/lib/python3.10/dist-packages/keyboard/__init__.py", line 510, in on_press_key
+    return hook_key(key, lambda e: e.event_type == KEY_UP or callback(e), suppress=suppress)
+  File "/usr/local/lib/python3.10/dist-packages/keyboard/__init__.py", line 491, in hook_key
+    _listener.start_if_necessary()
+  File "/usr/local/lib/python3.10/dist-packages/keyboard/_generic.py", line 35, in start_if_necessary
+    self.init()
+  File "/usr/local/lib/python3.10/dist-packages/keyboard/__init__.py", line 196, in init
+    _os_keyboard.init()
+  File "/usr/local/lib/python3.10/dist-packages/keyboard/_nixkeyboard.py", line 113, in init
+    build_device()
+  File "/usr/local/lib/python3.10/dist-packages/keyboard/_nixkeyboard.py", line 110, in build_device
+    device = aggregate_devices('kbd')
+  File "/usr/local/lib/python3.10/dist-packages/keyboard/_nixcommon.py", line 159, in aggregate_devices
+    return AggregatedEventDevice(devices_from_proc, output=fake_device)
+  File "/usr/local/lib/python3.10/dist-packages/keyboard/_nixcommon.py", line 109, in __init__
+    thread.setDaemon(True)
+  File "/usr/lib/python3.10/threading.py", line 1224, in setDaemon
+    warnings.warn('setDaemon() is deprecated, set the daemon attribute instead',
+DeprecationWarning: setDaemon() is deprecated, set the daemon attribute instead

@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: server",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": [
+        "-u", "18140562236",
+        "-p", "Sinoalgo123",
+        "-n", "100",
+      ]
+    }
+  ]
+}
