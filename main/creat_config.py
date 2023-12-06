@@ -13,8 +13,8 @@ print("localhost ip address:", IP)
 
 # 自动创建一个包含用户名、密码、IP地址、需要查询股票tick的代码的字典
 config = {
-    "username": "18140562236",
-    "password": "Sinoalgo123",
+    "username": "",
+    "password": "",
     "ip_address": IP,
     "code": ["000005.XSHE", "000001.XSHE", "000025.XSHE", "000034.XSHE", "000017.XSHE", "601988.XSHG"]
 }
